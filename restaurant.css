@@ -1,0 +1,47 @@
+.intro-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.intro-div {
+    background-color: rgba(0, 0, 0, 0.603);
+    box-shadow: 0 0 30px white;
+    text-shadow: 0 0 10px black;
+    width: 90%;
+    max-width: 800px;
+    padding: 40px;
+    font-size: 6vw;
+    text-transform: capitalize;
+    color: white;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 700;
+    border-radius: 15px;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .intro-div {
+        margin: 15% auto;
+        font-size: 8vw;
+        padding: 40px;
+    }
+}
+@media (max-width: 457px) {
+    .intro-div {
+        margin: 10% auto;
+        font-size: 10vw;
+        padding: 30px;
+    }
+}
+@media (min-width: 600px) {
+    .intro-div {
+        font-size: 4vw;
+        padding: 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .intro-div {
+        font-size: 3vw;
+        padding: 60px;
+    }
+}
