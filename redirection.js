@@ -24,23 +24,23 @@ document.querySelectorAll('[data-link]').forEach(link => {
         const page = link.getAttribute('data-link');
         switch(page) {
             case 'home':
-                window.location.href = "/e-commerce/restaurant.html";
+                window.location.href = "/restaurant/restaurant.html";
                 
                 break;
             case 'about':
-                window.location.href = "/e-commerce/about.html";
+                window.location.href = "/restaurant/about.html";
                 break;
             case 'menu':
-                window.location.href = "/e-commerce/menu.html";
+                window.location.href = "/restaurant/menu.html";
                 break;
             case 'events':
-                window.location.href = "/e-commerce/events.html";
+                window.location.href = "/restaurant/events.html";
                 break;
             case 'contact':
-                window.location.href = "/e-commerce/contact.html";
+                window.location.href = "/restaurant/contact.html";
                 break;
             case 'reservation':
-                window.location.href = "/e-commerce/reservation.html";
+                window.location.href = "/restaurant/reservation.html";
                 break;
             default:
                 console.error('Unknown page:', page);
